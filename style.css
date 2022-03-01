@@ -68,7 +68,7 @@ body {
   /*Ders 6 Kodlar*/
   
   #btn:hover {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(196, 50, 13);
     border: 1px solid rgb(158, 52, 3);
     transition: 1s;
@@ -111,7 +111,7 @@ body {
     background-color: white;
     color: rgb(190, 98, 11);
     border: 1px solid rgb(204, 90, 14);
-    transition: 1s;
+    transition: 2s;
     cursor: pointer;
   }
   .subMenuTitle {
@@ -136,55 +136,58 @@ body {
     padding: 70px;
   }
   #formContainer{
-    width: 50%;
-    float:left;
+    width: 35%;
+    float: left;
+    display: flex;
+    justify-content: center;
   }
   #tableContainer{
     width: 50%;
     float: right;
+    display: flex;
+    justify-content: center;
   }
   .infoBox{
     display: flex;
     margin-bottom: 15px;
   }
   .infoLabel{
-    width: 55%;
+    width: 45%;
   }
   .infoInput{
-    width: 85%;
-    border: 1px solid rgb(0, 110, 255);
-    border-radius: 5px;
+    width: 65%;
+    border: 1px solid rgb(230, 24, 24);
+    border-radius: 15px;
   }
   #submitBtn{
-    width: 65%;
+    width: 45%;
     float: right;
-    padding: 8px 24px;
+    padding: 10px 20px;
     border: none;
-    background-color: rgb(223, 8, 8);
+    background-color: rgb(204, 65, 10);
     color: white;
-    margin-top: 30px;
+    margin-top: 15px;
     border-radius: 5px;
   }
   
-    #subMenuBtn:hover {
+  #submitBtn:hover {
       background-color: white;
-      color: rgb(247, 104, 9);
-      border: 1px solid rgb(240, 134, 13);
-      transition: 1s;
+      color: rgb(170, 7, 7);
+      border: 1px solid rgb(202, 6, 6);
+      transition: 3s;
       cursor: pointer;
   }
-  #personallist{
+  #personalList{
       width: 50%;
       border-collapse: collapse;
 
   }
   table,thead,tbody,tr,th,td{
-      border: 1px solid black;
+    border: 3px solid rgb(197, 42, 15);
   }
   #foterp{
     color:white;
    background-color:#000000;
    text-align:center;
-   padding: 30px 0px;
+   padding: 20px 0px;
   }
-  
